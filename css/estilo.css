@@ -8,7 +8,7 @@
 
 body{
     background-color: #555555;
-    background: url("../_imagens/web-background.jpg") no-repeat;
+    background: url("../imagens/web-background.jpg") no-repeat;
     background-position: center center;
     background-size: 100% 100%;
     font-family: Arial, sans-serif;
@@ -31,7 +31,7 @@ div#interface{
 header#cabecalho {
     border-bottom: 2px #606060 solid;
     padding-top: 60px !important;
-    background: url("../_imagens/grunge-2.png");
+    background: url("../imagens/grunge-2.png");
     margin: 0px -10px 0px -10px;
 }
 
