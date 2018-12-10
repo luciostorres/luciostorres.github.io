@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+#conteudo2 {
+    float:left;
+}
+
+#conteudo3 {
+    float:right;
+    margin-right: 40%;
+    border-left: 1px solid #cecece;
+}
+
+#conteudo3 a {
+    text-decoration: none;
+    color: #333333;
+}
+ 
+#conteudo3 a:hover {
+    text-decoration: underline;
+}
+
+
+article p {
+    font-weight: bold;
+}
+
+.btn__curto{
+    text-align: center;
+}
+
+/* Corpo do Modal */
+ul#trabalhos {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    overflow: hidden;
+    list-style: none;
+    padding-bottom: 200px;
+}
+
+ul#trabalhos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+ul#trabalhos li a img{
+    width: 200px;
+    height: 200px;
+}
+
+.modal-body p.materias {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.modal-body a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#download {
+    margin-top: 5%; 
+}
+
+/*Formatacao Imagem com Legenda*/
+
+figure.img {
+    position: relative;
+}
+
+figure.img img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+figure.img figcaption{
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.6);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+figure.img:hover figcaption{
+    opacity: 1;
+}
+
+figcaption h3 {
+    padding-top: 15%;
+}

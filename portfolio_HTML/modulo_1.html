@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Projeto Integrador</title>
+	<link rel="stylesheet" type="text/css" href="_css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="_css/estilo_1.css">
+
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<div id="interface" >
+
+     <header id="cabecalho">
+        <hgroup>
+            <h1>Portfólio Digital</h1>
+            <h2>Gestão de Tecnologia da Informação</h2>
+        </hgroup>
+
+    <nav id="menu">
+        <h1>Menu Principal</h1>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="modulo_1.html"><li class="atual">Módulo I</li></a>
+            <a href="modulo_2.html"><li>Módulo II</li></a>
+            <a href="modulo_3.html"><li>Módulo III</li></a>
+            <a href="#"><li>Módulo IV</li></a>
+            <a href="#"><li>Módulo V</li></a>
+        </ul>
+    </nav>
+    </header>
+
+    <p id="breadcrumb">Home > Módulo I</p>
+
+<article id="conteudo2">
+    <p> Matérias do Módulo:</p>
+    <ul type="circle">
+        <li>Lógica de Programação e Algoritmos</li>
+        <li>Laboratório de Programação</li>
+        <li>Fundamentos de Redes de Computadores</li>
+        <li>Tópicos Especiais em Administração</li>
+        <li>Comunicação Empresarial</li>
+        <li>Fundamentos de TI</li>
+    </ul>
+</article>
+
+<article id="conteudo3">
+    <p> Integrantes:</p>
+    <ul type="circle">
+        <a href="http://gti.projetointegrador.com.br/~171N154200069/" target="_blank"><li>Lúcio Torres</li></a>
+        <a href="http://gti.projetointegrador.com.br/~171N154200060/" target="_blank"><li>Marciano Romeu</li></a>
+        <a href="http://gti.projetointegrador.com.br/~171N154200061/" target="_blank"><li>Nayara Lopes</li></a>
+        <a href="http://gti.projetointegrador.com.br/~171N154200079/" target="_blank"><li>Silvanne Marinho</li></a>
+    </ul>
+</article>
+
+
+<div id="projetos">
+    <ul id="trabalhos">
+        <li>
+            <a href="#">
+                <figure class="img">
+                <img src="_imagens/bt4.png"/>
+                    <figcaption data-toggle="modal" data-target="#modal-mensagem1" class="float-r"><h3>Calculadora de Ip</h3></figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <figure class="img">
+                <img src="_imagens/bt5.png"/>
+                    <figcaption data-toggle="modal" data-target="#modal-mensagem2" class="float-r"><h3>Relatório de Redes</h3></figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <figure class="img">
+                <img src="_imagens/bt6.png"/>
+                    <figcaption data-toggle="modal" data-target="#modal-mensagem3" class="float-r"><h3>Introdução à Administração</h3></figcaption>
+                </figure>
+            </a>
+        </li>
+    </ul>
+   
+
+    <div class="modal fade" id="modal-mensagem1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                    <h3 class="modal-title">Calculadora de Sub-redes</h3>
+                </div>
+                <div class="modal-body">
+                    <p class="materias">Matérias:</p>
+                    <p>&clubs; Lógica de Programação e Algoritmos</p>
+                    <p>&clubs; Laboratório de Programação</p>
+                    <br/>
+                    <p class="materias">Objetivo:</p>
+                        <p>Implementar na linguagem Java o programa que a partir de um número IP e do prefixo da rede fornecidos pelo usuário, verifique a qual classe este pertence, caso pertença a classe C, calcule e escreva:</p>
+                        <p>&diams; a máscara de rede; </p>
+                        <p>&diams; o endereço do Broadcast;</p>
+                        <p>&diams; criar uma tabela de sub-redes e intervalo de hosts válidos;</p>
+                        <a href="_arquivos/mod1/CalculadoraIp-jar.jar" target="_blank"><button type="button" class="btn btn-primary btn-lg" id="download">Arquivo .jar</button></a>
+                        <a href="_arquivos/mod1/CalculadoraIp.rar" target="_blank"><button type="button" class="btn btn-primary btn-lg" id="download">Código Completo</button></a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-mensagem2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                    <h3 class="modal-title">Relatório de Redes</h3>
+                </div>
+                <div class="modal-body">
+                    <p class="materias">Matérias:</p>
+                    <p>&clubs; Fundamentos de Redes de Computadores</p>
+                    <br/>
+                    <p class="materias">Objetivo:</p>
+                        <p>Criar um relatório técnico explicativo do uso da ferramenta (sugestões: nmap/zenmap) para coleta de informações da rede (faixa de ips, máscaras de redes,  serviços e portas abertas). Neste documento deve conter:</p>
+                        <p>&diams; um passo a passo sobre como foi o levantamento dos dados da rede, com prints de telas; </p>
+                        <p>&diams; o endereço do Broadcast;</p>
+                        <p>&diams; descrição dos protocolos de redes responsáveis pelos serviços disponíveis nos servidores;</p>
+                    <a href="_arquivos/mod1/nmap.pdf" target="_blank"> <button type="button" class="btn btn-primary btn-lg btn-block" id="download">Download</button></a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-mensagem3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                    <h3 class="modal-title">Instrodução a Administração</h3>
+                </div>
+                <div class="modal-body">
+                    <p class="materias">Matérias:</p>
+                    <p>&clubs; Tópicos Especiais em Administração</p>
+                    <br/>
+                    <p class="materias">Objetivo:</p>
+                        <p>Produção de texto sobre tópicos especiais em administração. De acordo com o tópico sorteado, o grupo de alunos irá produzir e publicar, de forma interativa, no portfólio digital.</p>
+                        <a href="_arquivos/mod1/adm1.pdf" target="_blank"><button type="button" class="btn btn-primary btn-lg" id="download">Teoria X, Y, Z</button></a>
+                        <a href="_arquivos/mod1/adm2.pdf" target="_blank"><button type="button" class="btn btn-primary btn-lg" id="download">Kaizen</button></a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer id="rodape">
+    <section id="menu-rodape">
+        <p>Menu</p>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="modulo_1.html"><li>Módulo I</li></a>
+            <a href="modulo_2.html"><li>Módulo II</li></a>
+            <a href="modulo_3.html"><li>Módulo III</li></a>
+            <a href="#"><li>Módulo IV</li></a>
+            <a href="#"><li>Módulo V</li></a>
+        </ul>
+    </section>
+
+    <aside id="contato">
+        <p>Contato</p>
+        <ul>
+            <li><a href="https://www.facebook.com/lucio.torres.142" title="Facebook" target="_blank"><img src="_imagens/icon_face_p.png" title="Facebook" alt="Facebook"/></a></li>
+            <li><a href="https://twitter.com/LucioST1"title="Twitter" target="_blank"><img src="_imagens/icon_twitter_p.png" title="Twitter" alt="Twitter"/></a></li>
+        </ul>
+            <p>l.s.torres23@gmail.com</p>
+    </aside>
+    
+    <p>&copy; Copyright 2017 - Lúcio Torres. Todos Direitos Reservados</p>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Projeto Integrador</title>
+	<link rel="stylesheet" type="text/css" href="_css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="_css/estilo_1.css">
+
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<div id="interface" >
+
+     <header id="cabecalho">
+        <hgroup>
+            <h1>Portfólio Digital</h1>
+            <h2>Gestão de Tecnologia da Informação</h2>
+        </hgroup>
+
+    <nav id="menu">
+        <h1>Menu Principal</h1>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="modulo_1.html"><li>Módulo I</li></a>
+            <a href="modulo_2.html"><li class="atual">Módulo II</li></a>
+            <a href="modulo_3.html"><li>Módulo III</li></a>
+            <a href="#"><li>Módulo IV</li></a>
+            <a href="#"><li>Módulo V</li></a>
+        </ul>
+    </nav>
+    </header>
+
+    <p id="breadcrumb">Home > Módulo II</p>
+
+<article id="conteudo2">
+    <p> Matérias do Módulo:</p>
+    <ul type="circle">
+        <li>Ética, Cidadania e responsabilidade Social</li>
+        <li>Programação Orientada a Objetos</li>
+        <li>Engenharia de Software</li>
+        <li>Arquitetura e Organização de Computadores</li>
+        <li>Laboratório de redes de Computadores</li>
+        <li>Gestão de Pessoas</li>
+        <li>Estatística Aplicada</li>
+    </ul>
+</article>
+
+<article id="conteudo3">
+    <p> Integrantes:</p>
+    <ul type="circle">
+        <a href="http://gti.projetointegrador.com.br/~171N154200069/" target="_blank"><li>Lúcio Torres</li></a>
+        <a href="http://gti.projetointegrador.com.br/~171N154200061/" target="_blank"><li>Nayara Lopes</li></a>
+        <a href="http://gti.projetointegrador.com.br/~171N154200079/" target="_blank"><li>Silvanne Marinho</li></a>
+    </ul>
+</article>
+
+
+<div id="projetos">
+    <ul id="trabalhos">
+        <li>
+            <a href="#">
+                <figure class="img">
+                <img src="_imagens/bt1.png"/>
+                    <figcaption data-toggle="modal" data-target="#modal-mensagem1" class="float-r"><h3>Analisador de Log</h3></figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <figure class="img">
+                <img src="_imagens/bt2.png"/>
+                    <figcaption data-toggle="modal" data-target="#modal-mensagem2" class="float-r"><h3>Relatório de Redes</h3></figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <figure class="img">
+                <img src="_imagens/bt2.png"/>
+                    <figcaption data-toggle="modal" data-target="#modal-mensagem3" class="float-r"><h3>Relatório de Software</h3></figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <figure class="img">
+                <img src="_imagens/bt5.png"/>
+                    <figcaption data-toggle="modal" data-target="#modal-mensagem4" class="float-r"><h3>Recrutamento de RH</h3></figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <figure class="img">
+                <img src="_imagens/bt4.png"/>
+                    <figcaption data-toggle="modal" data-target="#modal-mensagem5" class="float-r"><h3>Analise de Arquitetura</h3></figcaption>
+                </figure>
+            </a>
+        </li>
+    </ul>
+   
+
+    <div class="modal fade" id="modal-mensagem1">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                     <h3 class="modal-title">Analisador de Log</h3>
+                 </div>
+                 <div class="modal-body">
+                    <p class="materias">Matérias:</p>
+                    <p>&clubs; Programação Orientada a Objetos</p>
+                    <p>&clubs; Estatística Aplicada</p>
+                    <p>&clubs; Laboratório de Redes de Computadores</p>
+                    <br/>
+                    <p class="materias">Objetivo:</p>
+                        <p>Implementação do analisador de logs do Servidor Web com base nos requisitos da unidade curricular de Estatística, de acordo com o roteiro abaixo:</p>
+                        <p>&diams; Recuperar o conteúdo do arquivo de log de acesso do servidor httpd Apache; </p>
+                        <p>&diams; Desenvolver a lógica para fazer os cálculos estatísticos solicitados;</p>
+                        <p>&diams; Desenvolva a classe Arquivo, na qual deve existir dois métodos estáticos um responsável pela leitura dos dados do arquivo e que retorna o ArrayList preenchido e outro que recebe o ArrayList preenchido e grava no arquivo.</p>
+                        <p>&diams; Realizar o tratamento dos dados (cálculos de média, moda, mediana, desvio padrão e frequência, aplicados por dia,ip, usuário ou browser)</p>
+                        <a href="_arquivos/mod2/analisadorrealoficial.zip" target="_blank"> <button type="button" class="btn btn-primary btn-lg btn-block" id="download">Download</button></a>
+                 </div>
+                 <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                 </div>
+             </div>
+         </div>
+    </div>
+
+    <div class="modal fade" id="modal-mensagem2">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                     <h3 class="modal-title">Relatório de Redes</h3>
+                 </div>
+                 <div class="modal-body">
+                    <p class="materias">Matéria:</p>
+                    <p>&clubs; Laboratório de Redes de Computadores</p>
+                    <br/>
+                    <p class="materias">Objetivo:</p>
+                        <p>Tratamento dos dados gerados pelo Servidor de Web a partir do arquivo de logs. Configuração do Servidor Web para armazenar em um arquivo texto os logs de acesso, os dados devem estar formatados utilizando um separador.</p>
+                        <p>&diams; Instalar o Servidor Web;</p>
+                        <p>&diams; Criar e configurar os logs de acesso das páginas hospedadas no Servidor Web;</p>
+                        <p>&diams; Formatar os dados que serão armazenados no arquivo texto;</p>
+                        <a href="_arquivos/mod2/labs.pdf" target="_blank"> <button type="button" class="btn btn-primary btn-lg btn-block" id="download">Download</button></a>
+                 </div>
+                 <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                 </div>
+             </div>
+         </div>
+    </div>
+
+    <div class="modal fade" id="modal-mensagem3">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                     <h3 class="modal-title">Relatório de Software</h3>
+                 </div>
+                 <div class="modal-body">
+                    <p class="materias">Matéria:</p>
+                    <p>&clubs; Engenharia de Software</p>
+                    <br/>
+                    <p class="materias">Objetivo:</p>
+                        <p>Elaboração do documento de requisitos referente ao software a ser implementado na unidade curricular de Programação Orientada a Objetos. O documento deve conter os seguintes tópicos: objetivo, escopo, regras de negócio, requisitos funcionais, requisitos não-funcionais, modelo de caso de uso, protótipos, modelo de classes e/ou outro tópico solicitado.</p>
+                        <a href="_arquivos/mod2/ersinha.pdf" target="_blank"> <button type="button" class="btn btn-primary btn-lg btn-block" id="download">Download</button></a>
+                 </div>
+                 <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+    <div class="modal fade" id="modal-mensagem4">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                     <h3 class="modal-title">Recrutamento de RH</h3>
+                 </div>
+                 <div class="modal-body">
+                    <p class="materias">Matéria:</p>
+                    <p>&clubs; Gestão de Pessoas</p>
+                    <br/>
+                    <p class="materias">Objetivo:</p>
+                        <p>Elaborar um funcionograma contendo o desenho de cargos de tarefas do Setor de TI. Elaborar um programa de capacitação/treinamento para os colaboradores dos respectivos cargos identificados no funcionograma.</p>
+                        <a href="_arquivos/mod2/gestao.pdf" target="_blank"> <button type="button" class="btn btn-primary btn-lg btn-block" id="download">Download</button></a>
+                 </div>
+                 <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+     <div class="modal fade" id="modal-mensagem5">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                     <h3 class="modal-title">Analise de Arquitetura</h3>
+                 </div>
+                 <div class="modal-body">
+                    <p class="materias">Matéria:</p>
+                    <p>&clubs; Arquitetura e Organização de Computadores</p>
+                    <br/>
+                    <p class="materias">Objetivo:</p>
+                        <p>Identificar os requisitos de Hardware necessários para execução do software planejado no componente curricular Programação Orientada a Objetos e configuração do servidor web para geração de  logs,  em Laboratório de Redes de Computadores.</p>
+                        <a href="_arquivos/mod2/arqs.pdf" target="_blank"> <button type="button" class="btn btn-primary btn-lg btn-block" id="download">Download</button></a>
+                 </div>
+                 <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                 </div>
+             </div>
+         </div>
+     </div>
+</div>
+
+<footer id="rodape">
+    <section id="menu-rodape">
+        <p>Menu</p>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="modulo_1.html"><li>Módulo I</li></a>
+            <a href="modulo_2.html"><li>Módulo II</li></a>
+            <a href="modulo_3.html"><li>Módulo III</li></a>
+            <a href="#"><li>Módulo IV</li></a>
+            <a href="#"><li>Módulo V</li></a>
+        </ul>
+    </section>
+
+    <aside id="contato">
+        <p>Contato</p>
+        <ul>
+            <li><a href="https://www.facebook.com/lucio.torres.142" title="Facebook" target="_blank"><img src="_imagens/icon_face_p.png" title="Facebook" alt="Facebook"/></a></li>
+            <li><a href="https://twitter.com/LucioST1"title="Twitter" target="_blank"><img src="_imagens/icon_twitter_p.png" title="Twitter" alt="Twitter"/></a></li>
+        </ul>
+            <p>l.s.torres23@gmail.com</p>
+    </aside>
+    
+    <p>&copy; Copyright 2017 - Lúcio Torres. Todos Direitos Reservados</p>
+</footer>
+</div>
+</body>
+</html>

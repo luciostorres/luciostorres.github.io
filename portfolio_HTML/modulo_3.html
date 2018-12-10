@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Projeto Integrador</title>
+	<link rel="stylesheet" type="text/css" href="_css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="_css/estilo_1.css">
+
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<div id="interface" >
+
+     <header id="cabecalho">
+        <hgroup>
+            <h1>Portfólio Digital</h1>
+            <h2>Gestão de Tecnologia da Informação</h2>
+        </hgroup>
+
+    <nav id="menu">
+        <h1>Menu Principal</h1>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="modulo_1.html"><li>Módulo I</li></a>
+            <a href="modulo_2.html"><li>Módulo II</li></a>
+            <a href="modulo_3.html"><li class="atual">Módulo III</li></a>
+            <a href="#"><li>Módulo IV</li></a>
+            <a href="#"><li>Módulo V</li></a>
+        </ul>
+    </nav>
+    </header>
+
+    <p id="breadcrumb">Home > Módulo III</p>
+
+<article id="conteudo2">
+    <p> Matérias do Módulo:</p>
+    <ul type="circle">
+        <li>Sistemas Operacionais</li>
+        <li>Banco de Dados</li>
+        <li>Análise e Projetos de Sistemas</li>
+        <li>Fundamentos de Serviços de IP</li>
+        <li>Matemática Financeira</li>
+        <li>Planejamento Estratégico de TI</li>
+        <li>Empreendedorismo</li>
+    </ul>
+</article>
+
+<article id="conteudo3">
+    <p> Integrantes:</p>
+    <ul type="circle">
+        <a href="http://gti.projetointegrador.com.br/~171N154200069/" target="_blank"><li>Lúcio Torres</li></a>
+        <a href="http://gti.projetointegrador.com.br/~171N154200122/" target="_blank"><li>Alex Carlos</li></a>
+        <a href="http://gti.projetointegrador.com.br/~1725154200260/" target="_blank"><li>Alexandre Silva</li></a>
+		<a href="http://gti.projetointegrador.com.br/~171N154200072/" target="_blank"><li>Winder Rezende</li></a>
+    </ul>
+</article>
+
+
+<div id="projetos">
+    <ul id="trabalhos">
+        <li>
+            <a href="#">
+                <figure class="img">
+                <img src="_imagens/bt4.png"/>
+                    <figcaption data-toggle="modal" data-target="#modal-mensagem1" class="float-r"><h3>Simulador de Casa Bancária</h3></figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <figure class="img">
+                <img src="_imagens/bt3.png"/>
+                    <figcaption data-toggle="modal" data-target="#modal-mensagem2" class="float-r"><h3>Documento de Análise</h3></figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <figure class="img">
+                <img src="_imagens/bt6.png"/>
+                    <figcaption data-toggle="modal" data-target="#modal-mensagem3" class="float-r"><h3>Proposta de Tecnologias</h3></figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <figure class="img">
+                <img src="_imagens/bt5.png"/>
+                    <figcaption data-toggle="modal" data-target="#modal-mensagem4" class="float-r"><h3>Planejamento Estratégico</h3></figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <figure class="img">
+                <img src="_imagens/bt2.png"/>
+                    <figcaption data-toggle="modal" data-target="#modal-mensagem5" class="float-r"><h3>Imagem Docker</h3></figcaption>
+                </figure>
+            </a>
+        </li>
+    </ul>
+   
+
+    <div class="modal fade" id="modal-mensagem1">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                     <h3 class="modal-title">Simulador de Casa Bancária</h3>
+                 </div>
+                 <div class="modal-body">
+                    <p class="materias">Matérias:</p>
+                    <p>&clubs; Banco de Dados</p>
+                    <p>&clubs; Matemática Financeira</p>
+                    <br/>
+                    <p class="materias">Objetivo:</p>
+                        <p>Simular uma casa bancária que faz empréstimo para aposentados, pensionistas e funcionários públicos. Onde deve-se calcular a margem de consignação, o valor das parcelas de cada empréstimo e o valor de quitação caso alguém queira quitar um contrato;</p>
+                        <p>&diams; Cadastrar o cliente informando nome, cpf, situação, valor do salário líquido descrito no contracheque e o valor(es) mensal(is) de outros empréstimos já contratados.</p>
+                        <p>&diams; Calcular o valor máximo do empréstimo aceitável de forma que o valor da prestação, ACRESCENTADO AS PRESTAÇÕES JÁ EXISTENTES seja igual ou inferior aos 30% calculados acima. Usando as fórmulas de PMT e consultando as tabelas financeiras para uma taxa pré-fixada;</p>
+                        <p>&diams; Mostrar ATRAVÉS DE TABELAS AS possibilidades de empréstimos com prazos distintos PELOS DOIS SISTEMAS SAC E PRICE;</p>
+                        <div class="btn__curto">
+                            <a href="_arquivos/mod3/mat_financeira.pdf" target="_blank"><button type="button" class="btn btn-primary btn-lg" id="download">Resumo Financeiro</button></a>
+                            <a href="_arquivos/mod3/database_info.pdf" target="_blank"><button type="button" class="btn btn-primary btn-lg" id="download">Resumo Database</button></a>
+                        </div>
+                        <a href="_arquivos/mod3/seb.rar" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-block" id="download">Software .rar</button></a>
+                 </div>
+                 <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                 </div>
+             </div>
+         </div>
+    </div>
+
+    <div class="modal fade" id="modal-mensagem2">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                     <h3 class="modal-title">Documento de Análise</h3>
+                 </div>
+                 <div class="modal-body">
+                    <p class="materias">Matéria:</p>
+                    <p>&clubs; Análise e Projetos de Sistemas</p>
+                    <br/>
+                    <p class="materias">Objetivo:</p>
+                        <p>Documentar os requisitos para o Simulador da Casa Bancária. Construir o modelo de documento de análise (MDA) : requisitos, diagrama de casos de uso (com descrição de cada caso de uso contendo, pelo menos, protótipo da tela e fluxos envolvidos em cada tela), diagrama de classes (com descrição de cada classe, obedecendo o padrão BCE para as classes - Border, Control e Entity - um diagrama de classe para cada caso de uso), diagrama de sequência (para cada diagrama de classe) e o diagrama de atividades (descrevendo as interações entre os casos de uso);</p>
+                        <a href="_arquivos/mod3/analise_proj_sist.pdf" target="_blank"> <button type="button" class="btn btn-primary btn-lg btn-block" id="download">Download</button></a>
+                 </div>
+                 <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                 </div>
+             </div>
+         </div>
+    </div>
+
+    <div class="modal fade" id="modal-mensagem3">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                     <h3 class="modal-title">Proposta de Tecnologias</h3>
+                 </div>
+                 <div class="modal-body">
+                    <p class="materias">Matéria:</p>
+                    <p>&clubs; Fundamentos de Serviços de IP</p>
+                    <br/>
+                    <p class="materias">Objetivo:</p>
+                        <p>Elabore uma proposta de tecnologia da informação e comunicações para atender a operacionalização da casa bancária.;</p>
+                        <a href="_arquivos/mod3/servicos_operacionais.pdf" target="_blank"> <button type="button" class="btn btn-primary btn-lg btn-block" id="download">Download</button></a>
+                 </div>
+                 <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+    <div class="modal fade" id="modal-mensagem4">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                     <h3 class="modal-title">Planejamento Estratégico</h3>
+                 </div>
+                 <div class="modal-body">
+                    <p class="materias">Matéria:</p>
+                    <p>&clubs; Planejamento Estratégico de TI</p>
+                    <br/>
+                    <p class="materias">Objetivo:</p>
+                        <p>Considerando  que  você vai  montar  uma Startup  para  desenvolver e comercializar o  software.  Montar o  planejamento  estratégico de TI contendo  Missão,  Visão,  Valores,  Perspectivas, objetivos, Indicadores e Metas para assegurar que as metas e objetivos da TI estejam fortemente vinculados às metas  e  objetivos do  negócio/estratégia da  Startup  e, portanto, alinhado com seu  Planejamento Estratégico.</p>
+                        <a href="_arquivos/mod3/plan_estrategico.pdf" target="_blank"> <button type="button" class="btn btn-primary btn-lg btn-block" id="download">Download</button></a>
+                 </div>
+                 <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+     <div class="modal fade" id="modal-mensagem5">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+                     <h3 class="modal-title">Imagem Docker</h3>
+                 </div>
+                 <div class="modal-body">
+                    <p class="materias">Matéria:</p>
+                    <p>&clubs; Sistemas Operacionais</p>
+                    <br/>
+                    <p class="materias">Objetivo:</p>
+                        <p>Criar uma imagem docker contendo a instalação da atividade de Comércio Eletrônico e de  Banco de Dados. Publicar  esta imagem  no  site https://hub.docker.com/;</p>
+                        <a href="_arquivos/mod3/img_docker.pdf" target="_blank"> <button type="button" class="btn btn-primary btn-lg btn-block" id="download">Download</button></a>
+                 </div>
+                 <div class="modal-footer">
+                     <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                 </div>
+             </div>
+         </div>
+     </div>
+</div>
+
+<footer id="rodape">
+    <section id="menu-rodape">
+        <p>Menu</p>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="modulo_1.html"><li>Módulo I</li></a>
+            <a href="modulo_2.html"><li>Módulo II</li></a>
+            <a href="modulo_3.html"><li>Módulo III</li></a>
+            <a href="#"><li>Módulo IV</li></a>
+            <a href="#"><li>Módulo V</li></a>
+        </ul>
+    </section>
+
+    <aside id="contato">
+        <p>Contato</p>
+        <ul>
+            <li><a href="https://www.facebook.com/lucio.torres.142" title="Facebook" target="_blank"><img src="_imagens/icon_face_p.png" title="Facebook" alt="Facebook"/></a></li>
+            <li><a href="https://twitter.com/LucioST1"title="Twitter" target="_blank"><img src="_imagens/icon_twitter_p.png" title="Twitter" alt="Twitter"/></a></li>
+        </ul>
+            <p>l.s.torres23@gmail.com</p>
+    </aside>
+    
+    <p>&copy; Copyright 2017 - Lúcio Torres. Todos Direitos Reservados</p>
+</footer>
+</div>
+</body>
+</html>
